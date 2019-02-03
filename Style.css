@@ -1,0 +1,110 @@
+/* Reset all styles on whole document */
+/* Added border box property */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(29, 65, 133);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(33, 33, 202);
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+/* Set main container width to 100% */
+#container {
+    width: 100%;
+}
+
+#form-wrap,
+#main-footer {
+    max-width: 60%;
+    margin: 50px auto 0 auto;
+    background: white;
+}
+
+#main-footer {
+    margin-top: 20px;
+}
+
+#form-header {
+    text-align: center;
+    line-height: 2.5em;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 85%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2em;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid hsla(0, 0%, 80%, 0.925);
+    border-radius: 2px;
+}
+
+#form-footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+#form-footer #SignUp {
+    border: 1px solid hsla(0, 0%, 80%, 0.925);
+    border-radius: 3px;
+    width: 85%;
+    padding: 7px;
+    background-color: rgba(72, 144, 72, 0.789);
+    margin-bottom: 15px;
+    color: white;
+}
+
+#form-footer #SignUp:hover {
+    background-color: rgb(50, 122, 50);
+    transition-duration: 1000ms;
+}
+
+#form-footer p {
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+#main-footer {
+    text-align: center;
+    background-color: inherit;
+    color: white;
+}
+
+#main-footer a {
+    color: rgb(23, 191, 23);
+}
+
+#main-footer a:hover {
+    color: rgb(2, 236, 2);
+    transition-duration: 1000ms;
+}

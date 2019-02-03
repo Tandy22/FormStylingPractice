@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="Style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Form Styling Practice</title>
+</head>
+
+<body>
+    <div id="container">
+        <main id="form-wrap">
+            <header id="form-header">
+                <h1>Sign Up</h1>
+                <p>It's free and it only takes a minute</p>
+            </header>
+            <form action="obrada.php">
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <br>
+                    <input type="text" name="FirstName" id="FirstName" data-lpignore="true">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <br>
+                    <input type="text" name="LastName" id="LastName" data-lpignore="true">
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" name="Email" id="Email" data-lpignore="true">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <br>
+                    <input type="password" name="Password" id="Password" data-lpignore="true">
+                </div>
+                <div class="form-group">
+                    <label for="RepeatPassword">Repeat Password</label>
+                    <br>
+                    <input type="password" name="RepeatPassword" id="RepeatPassword" data-lpignore="true">
+                </div>
+            </form>
+            <footer id="form-footer">
+                <button id="SignUp">Sign Up</button>
+                <p>By clicking the Sign Up button, you agree to our
+                    <a href="#">Terms & Conditions</a> and
+                    <a href="#">Privacy Policy</a></a>
+                </p>
+            </footer>
+        </main>
+        <footer id="main-footer">
+            <p>
+                Already have an account? <a href="#">Login Here</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
